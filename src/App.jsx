@@ -1,15 +1,24 @@
 import './App.css';
-import {Productos} from './components/Productos'
-import {ColorSchemesExample} from "./components/Navbar"
+import {ItemListContainer} from './components/ItemListContainer/ItemListContainer';
+import {ColorSchemesExample} from "./components/Navbar/Navbar";
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
+import ItemDetailContainer from './components/ItemDetailContainer/ItemDetailContainer';
 
 function App() {
 
   return (
-    <div className="App">
+    <BrowserRouter>
       <ColorSchemesExample />
-      <Productos bienvenido={"Bienvenido a nuestra tienda Online"}/>
-    </div>
+      <Routes>
+        <Route path= '/' element={ <ItemListContainer bienvenido={"Bienvenido a nuestra tienda Online"}/> } />
+        <Route path='/detail/:itemId' element={ <ItemDetailContainer/> } />
+        <Route path= '/productos/:categoryId' element={ < ItemListContainer /> } />
+        <Route path= '*' element={ <Navigate to={"/"} /> } />
+      </Routes>
+      
+    </BrowserRouter>
+    
   )
 }
 

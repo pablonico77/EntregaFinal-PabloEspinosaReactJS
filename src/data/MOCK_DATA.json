@@ -1,0 +1,73 @@
+[{
+    "id": 1,
+    "nombre": "Rick and Morty - Jurassic Park",
+    "descripcion": "Remera Rick and Morty estampada con vinilo Termotransferible de alta calidad sobre remera de algodón peinado 24.1 con cuello rib, tapacosturas y refuerzo en hombros.",
+    "precio": 6.999,
+    "img": "../public/RickAndMortyJP.jpg",
+    "stock": 10,
+    "category": "rickandmorty"
+}, {
+    "id": 2,
+    "nombre": "Rick and Morty - Portal verde",
+    "descripcion": "Remera Rick and Morty estampada con vinilo Termotransferible de alta calidad sobre remera de algodón peinado 24.1 con cuello rib, tapacosturas y refuerzo en hombros.",
+    "precio": 6.999,
+    "img": "../public/RickAndMortyPortal.jpg",
+    "stock": 10,
+    "category": "rickandmorty"
+}, {
+    "id": 3,
+    "nombre": "Rick and Morty - Siluetas",
+    "descripcion": "Remera Rick and Morty estampada con vinilo Termotransferible de alta calidad sobre remera de algodón peinado 24.1 con cuello rib, tapacosturas y refuerzo en hombros.",
+    "precio": 6.999,
+    "img": "../public/RickAndMortySiluetas.jpg",
+    "stock": 10,
+    "category": "rickandmorty"
+}, {
+    "id": 4,
+    "nombre": "Star Wars - Darth Vader Pop",
+    "descripcion": "Remera Star Wars estampada con vinilo Termotransferible de alta calidad sobre remera de algodón peinado 24.1 con cuello rib, tapacosturas y refuerzo en hombros.",
+    "precio": 6.999,
+    "img": "../public/StarWarsDarthVader.jpg",
+    "stock": 10,
+    "category": "starwars"
+}, {
+    "id": 5,
+    "nombre": "Star Wars - I am your father",
+    "descripcion": "Remera Star Wars estampada con vinilo Termotransferible de alta calidad sobre remera de algodón peinado 24.1 con cuello rib, tapacosturas y refuerzo en hombros.",
+    "precio": 6.999,
+    "img": "../public/StarWarsIAmYourFather.jpg",
+    "stock": 10,
+    "category": "starwars"
+}, {
+    "id": 6,
+    "nombre": "Star Wars - May the force",
+    "descripcion": "Remera Star Wars estampada con vinilo Termotransferible de alta calidad sobre remera de algodón peinado 24.1 con cuello rib, tapacosturas y refuerzo en hombros.",
+    "precio": 6.999,
+    "img": "../public/StarWarsMayTheForce.jpg",
+    "stock": 10,
+    "category": "starwars"
+}, {
+    "id": 7,
+    "nombre": "The Simpsons - Bebe o moriré",
+    "descripcion": "Remera The Simpsons estampada con vinilo Termotransferible de alta calidad sobre remera de algodón peinado 24.1 con cuello rib, tapacosturas y refuerzo en hombros.",
+    "precio": 6.999,
+    "img": "../public/SimpsonsBebeOMorire.jpg",
+    "stock": 10,
+    "category": "simpsons"
+}, {
+    "id": 8,
+    "nombre": "The Simpsons - Tomy y Daly",
+    "descripcion": "Remera The Simpsons estampada con vinilo Termotransferible de alta calidad sobre remera de algodón peinado 24.1 con cuello rib, tapacosturas y refuerzo en hombros.",
+    "precio": 6.999,
+    "img": "../public/SimpsonsTomyYDaly.jpg",
+    "stock": 10,
+    "category": "simpsons"
+}, {
+    "id": 9,
+    "nombre": "The Simpsons - Chester Lampwick",
+    "descripcion": "Remera The Simpsons estampada con vinilo Termotransferible de alta calidad sobre remera de algodón peinado 24.1 con cuello rib, tapacosturas y refuerzo en hombros.",
+    "precio": 6.999,
+    "img": "../public/SimpsonsChesterLampwick.jpg",
+    "stock": 10,
+    "category": "simpsons"
+}]
