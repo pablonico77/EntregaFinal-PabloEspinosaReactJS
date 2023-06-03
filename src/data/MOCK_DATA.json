@@ -52,7 +52,7 @@
     "descripcion": "Remera The Simpsons estampada con vinilo Termotransferible de alta calidad sobre remera de algodón peinado 24.1 con cuello rib, tapacosturas y refuerzo en hombros.",
     "precio": 6.999,
     "img": "../public/SimpsonsBebeOMorire.jpg",
-    "stock": 10,
+    "stock": 12,
     "category": "simpsons"
 }, {
     "id": 8,

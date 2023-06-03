@@ -9,6 +9,7 @@ const ItemCard = ({item}) => {
             <img src={item.img} alt={item.nombre}/>
             <p>{item.descripcion}</p>
             <p><strong>Precio: ${item.precio}</strong></p>
+            {item.stock <= 10 && <p style={{color: 'red'}}>¡Quedan pocas unidades!</p>}
             <Link to={`/detail/${item.id}`} className='btn btn-warning'>Ver más</Link>
         </div>
     )

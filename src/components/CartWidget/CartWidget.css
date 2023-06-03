@@ -1,0 +1,22 @@
+.cart-widget {
+    display: flex;
+    align-items: center;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    gap: 1rem;
+    font-size: 1.5rem;
+    color: white;
+    cursor: pointer;
+    visibility: hidden;
+    opacity: 0;
+    transition: all .3s;
+}
+
+.cart-widget-active {
+    visibility: visible;
+    opacity: 1;
+}
+
+.carrito {
+    height: 3rem;
+}
